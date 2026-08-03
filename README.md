@@ -1,5 +1,7 @@
 # P1S Hybrid Firmware — 1.07 Privacy + 1.10 Performance
 
+> **CURRENTLY DOES NOT WORK — STAY TUNED.** Bambu's firmware uses RSA-2048 signatures on every component and the OTA manifest. The printer rejects modified packages. We're investigating alternative flashing methods (MQTT component push, UART, etc.). The build scripts and research are here for the community to build on.
+
 Custom hybrid firmware for the **Bambu Lab P1S** that keeps the privacy and offline freedom of firmware 1.07 while pulling in the performance improvements from 1.10.
 
 ## Why?
